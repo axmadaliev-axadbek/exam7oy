@@ -72,8 +72,8 @@ const PUT = (req, res, next) => {
     try {
         let products = read('products')
         let item = products.find(ctg => ctg.sub_category_id == req.params.id)
-        if(req.body.name) {
-            item.sub_category_name = req.body.name
+        if(req.body.productName) {
+            item.sub_category_name = req.body.productName
         }
         write('products', products)
         res.send(item)

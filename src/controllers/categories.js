@@ -42,7 +42,7 @@ const POST = (req, res, next) => {
         }
         let newCtg = {
             category_id: categories.length ? categories.at(-1).category_id + 1 : 1,           
-            category_name: req.body.name
+            category_name: req.body.categoryName
         }
         categories.push(newCtg)
         write('categories', categories)
@@ -60,8 +60,8 @@ const PUT = (req, res, next) => {
     try {
         let categories = read('categories')
         let item = categories.find(ctg => ctg.category_id == req.params.id)
-        if(req.body.name) {
-            item.category_name = req.body.name
+        if(req.body.categoryName) {
+            item.category_name = req.body.categoryName
         }
         write('categories', categories)
         res.send(item)

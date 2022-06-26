@@ -60,7 +60,7 @@ const PUT = (req, res, next) => {
         let subCategories = read('subCategories')
         let item = subCategories.find(ctg => ctg.sub_category_id == req.params.id)
         
-        if(req.body.name) {
+        if(req.body.subCategoryName) {
             item.sub_category_name = req.body.subCategoryName
         }
         write('subCategories', subCategories)

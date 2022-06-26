@@ -54,7 +54,7 @@ const LOGIN = (req, res, next) => {
 
 
 export default {
-    GET, REGISTER, LOGIN
+   REGISTER, LOGIN
 }
 
 

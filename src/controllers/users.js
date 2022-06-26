@@ -35,7 +35,7 @@ const REGISTER = (req, res, next) => {
 const LOGIN = (req, res, next) => {
     try {
         let users = read('users')
-        let user = users.find(user => user.username == req.body.username && user.password == req.body.password)
+        let user = users.find(user => user.username == req.body.username && user.password == jwt.sign(req.body.password))
         if(!user) {
             return next(new AuthorizationError(401, 'this user is  not exist'))
         }

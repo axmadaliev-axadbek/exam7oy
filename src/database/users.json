@@ -34,5 +34,11 @@
         "username": "ali",
         "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
         "email": "aza@gmail.com"
+    },
+    {
+        "userId": 7,
+        "username": "sardor",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
+        "email": "aza@gmail.com"
     }
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        "userId": 1,
+        "username": "ali",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Nzg.y7vJbTkB1sviCdicRTHAyDwP_EUDZdmlVBq1XnrdESg",
+        "email": "aza@gmail.com"
+    },
+    {
+        "userId": 2,
+        "username": "salim",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Nzg.y7vJbTkB1sviCdicRTHAyDwP_EUDZdmlVBq1XnrdESg",
+        "email": "sal@gmail.com"
+    },
+    {
+        "userId": 3,
+        "username": "ali",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
+        "email": "aza@gmail.com"
+    },
+    {
+        "userId": 4,
+        "username": "ali",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
+        "email": "aza@gmail.com"
+    },
+    {
+        "userId": 5,
+        "username": "ali",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
+        "email": "aza@gmail.com"
+    },
+    {
+        "userId": 6,
+        "username": "ali",
+        "password": "eyJhbGciOiJIUzI1NiJ9.MTIzNDU2Njc4.4ZmqytRsl9p7SFAJNjngt6XF0RJCglvyQVSKnrWs-Io",
+        "email": "aza@gmail.com"
+    }
+]

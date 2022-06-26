@@ -1,19 +1,7 @@
 import {write, read} from '../utils/model.js'
 import {AuthorizationError} from "../utils/errors.js"
 import jwt from '../utils/jwt.js'
-const API = 'http://localhost:7000'
-const GET = (req,res,next) => {
-    let users = read('users')
-    let {userId} = req.params
-    if(userId) {
-        let user = users.find(user => user.userId == userId)
-        delete user.password
-        return res.status(200).send(user)
-    }
 
-    users = users.filter( user => delete user.password)
-    res.status(200).send(users)
-}
 
 const REGISTER = (req, res, next) => {
     try {

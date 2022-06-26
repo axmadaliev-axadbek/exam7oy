@@ -13,12 +13,12 @@ const GET = (req,res,next) => {
         category.categoryId = category.category_id
         category.categoryName = category.category_name
         category.subCategories = subCategories.filter(item => item.category_id == category.categoryId)
-        subCategories = subCategories.filter(x => delete x.category_id)
         category.subCategories = category.subCategories.map(x => {
             x.subCategoryId = x.sub_category_id
             x.subCategoryName = x.sub_category_name       
             delete  x.sub_category_name 
             delete  x.sub_category_id
+            delete x.category_id
             return x
         })
         delete  category.category_name
